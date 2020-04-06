@@ -4,10 +4,9 @@ XCAPE
 xcape allows you to use a modifier key as another key when pressed and
 released on its own. Note that it is slightly slower than pressing the
 original key, because the pressed event does not occur until the key is
-released. The default behaviour is to generate the Escape key when Left
-Control is pressed and released on its own. (If you don't understand why
-anybody would want this, I'm guessing that Vim is not your favourite text
-editor ;)
+released. The default behaviour is to generate the Escape key when Super
+key is pressed and released on its own. (If you don't understand why anybody
+would want this, I'm guessing that Vim is not your favourite text editor ;)
 
 Minimal building instructions
 -----------------------------
@@ -107,7 +106,7 @@ there are two issues you may encounter.
    mapping.
 
 2. The key you wish to send must have a defined keycode. So for example, with
-   the default mapping `Control_L=Escape`, you still need an escape key defined
+   the default mapping `Super_L=Escape`, you still need an escape key defined
    in your xmodmap mapping. (I get around this by using 255, which my keyboard
    cannot send).
 

@@ -97,7 +97,7 @@ int main (int argc, char **argv)
 
 	int dummy, ch;
 
-	static char default_mapping[] = "Control_L=Escape";
+	static char default_mapping[] = "Super_L=Escape";
 	char *mapping = default_mapping;
 
 	XRecordRange *rec_range = XRecordAllocRange();
